@@ -1,0 +1,59 @@
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# .NET Core 3.0 SDK
+project.assets.json
+project.nuget.cache
+project.nuget.dgspec.json
+project.nuget.props
+project.nuget.targets
+
+# .NET Core 5.0 SDK
+*.runtimeconfig.dev.json
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+.history/
+
+# Local History for Visual Studio
+.localhistory/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+#outputs...
+*.dll
+*.cache
+*.dll
+*.pdb
+
+obj
+*/obj

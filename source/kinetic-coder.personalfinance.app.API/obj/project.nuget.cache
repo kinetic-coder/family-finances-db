@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "r7zubcHHEH29QkMAYyU7QPoxt+ikjAOe9Ktj8/cYlrH7bnkJlTmepRx3MJXzTPHLoe+x0Z34JyuuOpK9xXKv8A==",
+  "dgSpecHash": "ytoocht2RJmdCDG7dVzXvZ68b4JCqFJ3wpF1Op/q6RGnBxwsua5oG7REXf3pXteEX/Tm2lHgIhk62x7J2KdFzw==",
   "success": true,
   "projectFilePath": "/home/oliver/dev/family-finances-db/source/kinetic-coder.personalfinance.app.API/kinetic-coder.personalfinance.app.API.csproj",
   "expectedPackageFiles": [
