@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kinetic-coder.personalfinance.app.API", "kinetic-coder.personalfinance.app.API\kinetic-coder.personalfinance.app.API.csproj", "{C9CB5807-A0DE-4B33-9F79-71F3A20960B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kinetic-coder.personalfinance.app.Application", "kinetic-coder.personalfinance.app.Application\kinetic-coder.personalfinance.app.Application.csproj", "{ADB90E98-8EC4-4A46-A39C-DF02E8A916A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kinetic-coder.personalfinance.app.Domain", "kinetic-coder.personalfinance.app.Domain\kinetic-coder.personalfinance.app.Domain.csproj", "{96BEE13E-CF63-402F-9411-CBE8DA80252C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kinetic-coder.personalfinance.app.Infrastructure", "kinetic-coder.personalfinance.app.Infrastructure\kinetic-coder.personalfinance.app.Infrastructure.csproj", "{99A7BDB7-BE2F-4DAE-8D82-275B96993F59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kinetic-coder.personalfinance.app.Tests", "kinetic-coder.personalfinance.app.Tests\kinetic-coder.personalfinance.app.Tests.csproj", "{17132E09-F61C-43E5-984D-640622A0EC31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9CB5807-A0DE-4B33-9F79-71F3A20960B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9CB5807-A0DE-4B33-9F79-71F3A20960B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9CB5807-A0DE-4B33-9F79-71F3A20960B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9CB5807-A0DE-4B33-9F79-71F3A20960B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADB90E98-8EC4-4A46-A39C-DF02E8A916A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB90E98-8EC4-4A46-A39C-DF02E8A916A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB90E98-8EC4-4A46-A39C-DF02E8A916A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB90E98-8EC4-4A46-A39C-DF02E8A916A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96BEE13E-CF63-402F-9411-CBE8DA80252C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96BEE13E-CF63-402F-9411-CBE8DA80252C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96BEE13E-CF63-402F-9411-CBE8DA80252C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96BEE13E-CF63-402F-9411-CBE8DA80252C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99A7BDB7-BE2F-4DAE-8D82-275B96993F59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99A7BDB7-BE2F-4DAE-8D82-275B96993F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99A7BDB7-BE2F-4DAE-8D82-275B96993F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99A7BDB7-BE2F-4DAE-8D82-275B96993F59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17132E09-F61C-43E5-984D-640622A0EC31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17132E09-F61C-43E5-984D-640622A0EC31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17132E09-F61C-43E5-984D-640622A0EC31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17132E09-F61C-43E5-984D-640622A0EC31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
