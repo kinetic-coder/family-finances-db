@@ -4,6 +4,116 @@
     "/home/oliver/dev/family-finances-db/source/kinetic-coder.personalfinance.app.Infrastructure/kinetic-coder.personalfinance.app.Infrastructure.csproj": {}
   },
   "projects": {
+    "/home/oliver/dev/family-finances-db/source/kinetic-coder.personalfinance.app.Application/kinetic-coder.personalfinance.app.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/oliver/dev/family-finances-db/source/kinetic-coder.personalfinance.app.Application/kinetic-coder.personalfinance.app.Application.csproj",
+        "projectName": "kinetic-coder.personalfinance.app.Application",
+        "projectPath": "/home/oliver/dev/family-finances-db/source/kinetic-coder.personalfinance.app.Application/kinetic-coder.personalfinance.app.Application.csproj",
+        "packagesPath": "/home/oliver/.nuget/packages/",
+        "outputPath": "/home/oliver/dev/family-finances-db/source/kinetic-coder.personalfinance.app.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/oliver/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/oliver/dev/family-finances-db/source/kinetic-coder.personalfinance.app.Domain/kinetic-coder.personalfinance.app.Domain.csproj": {
+                "projectPath": "/home/oliver/dev/family-finances-db/source/kinetic-coder.personalfinance.app.Domain/kinetic-coder.personalfinance.app.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/oliver/dev/family-finances-db/source/kinetic-coder.personalfinance.app.Domain/kinetic-coder.personalfinance.app.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/oliver/dev/family-finances-db/source/kinetic-coder.personalfinance.app.Domain/kinetic-coder.personalfinance.app.Domain.csproj",
+        "projectName": "kinetic-coder.personalfinance.app.Domain",
+        "projectPath": "/home/oliver/dev/family-finances-db/source/kinetic-coder.personalfinance.app.Domain/kinetic-coder.personalfinance.app.Domain.csproj",
+        "packagesPath": "/home/oliver/.nuget/packages/",
+        "outputPath": "/home/oliver/dev/family-finances-db/source/kinetic-coder.personalfinance.app.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/oliver/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/home/oliver/dev/family-finances-db/source/kinetic-coder.personalfinance.app.Infrastructure/kinetic-coder.personalfinance.app.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -25,7 +135,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/oliver/dev/family-finances-db/source/kinetic-coder.personalfinance.app.Application/kinetic-coder.personalfinance.app.Application.csproj": {
+                "projectPath": "/home/oliver/dev/family-finances-db/source/kinetic-coder.personalfinance.app.Application/kinetic-coder.personalfinance.app.Application.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
